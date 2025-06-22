@@ -1,73 +1,26 @@
 # Reading D:/modelsim/modelsim_ase/tcl/vsim/pref.tcl 
-# Loading project Balytskyi_lab3
-# Error opening D:/:><? <>45;N20==O/half_add_lab1.v_
-# Path name 'D:/:><? <>45;N20==O/half_add_lab1.v_' doesn't exist.
-# Error opening D:/:><? <>45;N20==O/half_add_lab1.v_
-# Path name 'D:/:><? <>45;N20==O/half_add_lab1.v_' doesn't exist.
+# Loading project Lab4
 # reading D:\modelsim\modelsim_ase\win32aloem/../modelsim.ini
-# Loading project Lab3_Balytskyi
-# Compile of half_add_lab1.v was successful.
-vsim -t ps work.half_add
-# vsim -t ps work.half_add 
+# Loading project lab5
+# Compile of demultiplexator.v was successful.
+vsim work.half_add
+# vsim work.half_add 
 # Loading work.half_add
-add wave sim:/half_add/*
-do D:/Stim.do
-run -all
-# Break key hit 
-do D:/Stim.do
-run -all
-do D:/Stim.do
-run -all
-run
-# Break key hit 
-run -all
-# Break key hit 
-run
-# Break key hit 
-# Load canceled
-run -all
-restart
-run
-run
-run
-run
-# Break key hit 
-run 100
-run 1000ns
-run @ 300
-# Time value must be greater than "now":  300
-run @ 1500ns
-# Time value must be greater than "now":  1500ns
-restart
-run -all
-run 100
-run 1000ns
-run @ 300
-# Time value must be greater than "now":  300
-restart
-do D:/Stim.do
-restart
-run 100
-# Break key hit 
-run 1000ns
-# Break key hit 
-run @ 300
-# Time value must be greater than "now":  300
-restart
-do D:/Stim.do
-run @ 300
-run
-restart
-run @ 1500ns
-restart force
-restart force
-run 1000ns
-restart
-run @ 300
-restart
-do D:/Stim.do
-run 80
-restart force
-do D:/Stim.do
-run 80
+# Compile of demultiplexator.v was successful.
 quit -sim
+vsim work.half_add
+# vsim work.half_add 
+# Loading work.half_add
+run -all
+# Compile of demultiplexator.v was successful.
+do D:/modelsim/modelsim_ase/examples/Untitled-1.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
+# ** Error: (vlog-7) Failed to open design unit file "demux_1_to_8.v" in read mode.
+# No such file or directory. (errno = ENOENT)
+# ** Error: D:/modelsim/modelsim_ase/win32aloem/vlog failed.
+# Error in macro D:\modelsim\modelsim_ase\examples\Untitled-1.do line 2
+# D:/modelsim/modelsim_ase/win32aloem/vlog failed.
+#     while executing
+# "vlog demux_1_to_8.v"
+run -all
